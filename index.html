@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+	<meta charset="utf=8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Лапки</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="top">
+		<header class="header center">    
+			<nav class="navbar navbar-expand-lg navbar-light">
+			  <div class="container-fluid">
+			    <a href="index.html"><img class="header__logo header__logo_dark" src="img/logo.png" alt="logo"></a>
+				<a href="index.html"><img class="header__logo header__logo_white" src="img/Logo1.png" alt="logo"></a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse menu-desctop" id="navbarNav">
+
+					<div id="myOverlay" class="overlay">
+						<span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+						<div class="overlay-content">
+						  <form action="/action_page.php">
+							<input type="text" placeholder="Введите для поиска..." name="search">
+							<button type="submit"><a class="nav-link-img" href="#"></a><i class="fa fa-search"></i></button>
+						  </form>
+						</div>
+					  </div>
+
+					  <script>
+					  function openSearch() {
+						  document.getElementById("myOverlay").style.display = "block";
+					  }
+					  
+					  function closeSearch() {
+						  document.getElementById("myOverlay").style.display = "none";
+					  }
+					  </script>
+
+			      <ul class="navbar-nav">
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="index.html">ПРИЮТ ДЛЯ ЖИВОТНЫХ</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">КАТАЛОГ СОБАК</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">КАТАЛОГ КОШЕК</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">НАШЛИ ДОМ</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">СТАТЬ ВОЛОНТЕРОМ</a>
+			        </li>
+					<li>
+						<button class="openBtn" onclick="openSearch()"><a class="nav-link-img" href="#"></a></button>
+					</li>
+					<li>
+						<a class="nav-link-img2" href="reg.html"></a>
+					  </li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>	
+			<a href="#" id="up-buttom"><img src="img/up-buttom.png"></a>    
+		</header>
+		<div class="top__img">
+			<h2 class="heading"></h2>
+		</div>
+		<p class="text top__text-margin">
+			ПРИЮТ ДЛЯ ДОМАШНИХ ЖИВОТНЫХ
+		</p>
+		<div class="top__arrow center-content">
+			<a href="#info">
+				<svg class="top__svg" width="61" height="33" viewBox="0 0 61 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M2 2L30.5 31L59 2" stroke="#FF2947" stroke-width="3" stroke-linejoin="round"/>
+				</svg>
+			</a>
+		</div>
+		<script type="text/javascript"></script>
+	</section>
+	<section class="info" id="info">
+		
+		<h2 class="heading">Приют для домашних животных</h2>
+		<p class="text info__text">
+			Они ждут помощи
+		</p>
+		<div class="info__content">
+			<div class="info__item">
+				<img src="img/help0.jpg" class="d-block w-100" alt="">
+			</div>
+			<div class="info__item">
+				<img src="img/help1.jpg" class="d-block w-100" alt="">
+			</div>
+		</div>
+	</section>
+	<section class="flow flow_center">
+		<h2 class="heading">Фонд помощи животным</h2>
+		<p class="text text_margin text_flow-p">			
+			Благотворительный фонд помощи животным «Всем Миром» создан в Мае 2016 года на базе волонтерского сообщества «Кошкин Дом», действующего с 2014 года. Основная цель Фонда — помощь нашим братьям меньшим: попавшим в беду, бездомным, пострадавшим от рук человека, нуждающимся в лечении. Фонд активно развивается и старается оказывать поддержку волонтерам не только в Москве и Московской области, но и во многих других регионах нашей страны. С «географией» нашей работы вы можете ознакомиться на «карте добрых дел». В рамках утвержденных программ, Фонд сотрудничает и оказывает поддержку непосредственно приютам и кураторам бездомных животных по следующим направлениям:
+Помощь в оплате лечения и реабилитации бездомных/волонтерских животных,
+Помощь в покупке кормов, медикаментов, различных сопутствующих товаров для бездомных/волонтерских животных,
+Помощь в оплате стерилизации/ кастрации бездомных/волонтерских животных,
+Помощь в оплате передержки (временный дом для содержания подопечного) бездомных/волонтерских животных,
+Пиар бездомных/ волонтерских животных с целью поиска новой семьи и дома
+Организация перевозки животных в другой город/ страну
+Информационная поддержка.
+		</p>
+		<br>
+	</section>
+	<section class="settings center">
+		<div class="settings__slider-img">
+			<img src="img/banner4.jpg" alt="slider">
+		</div>
+		<div id="carouselExampleIndicators" class="carousel slide settings__sliders" data-bs-ride="carousel">
+		  	<div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+			</div>
+		    <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="img/carousel1.png" class="d-block w-100" alt="">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/carousel2.png" class="d-block w-100" alt="">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/carousel3.png" class="d-block w-100" alt="">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/carousel4.png" class="d-block w-100" alt="">
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/carousel5.png" class="d-block w-100" alt="">
+			    </div>
+		    </div>
+		</div>
+		<div class="settings__content">
+			<div class="settings__icons">
+				<img class="settings__img" src="img/browse.svg" alt="programm">
+				<img class="settings__img" src="img/ig.svg" alt="programm">
+				<img class="settings__img" src="img/pr.svg" alt="programm">
+				<img class="settings__img" src="img/fb.svg" alt="programm">
+				<img class="settings__img" src="img/tg.svg" alt="programm">
+				<img class="settings__img" src="img/tw.svg" alt="programm">
+				<img class="settings__img" src="img/yt.svg" alt="programm">
+			</div>
+			<p class="text text_margin text_settings">
+				Мы в социальных сетях
+			</p>
+		</div>
+	</section>
+	<section class="mouse mouse_center">
+		<div class="mouse__item mouse__text mouse__text_1">
+			<h2 class="heading">
+				ПРИЮТ В БАРНАУЛЕ СУЩЕСТВУЕТ С 2023 ГОДА.
+			</h2>
+			<p class="text text_margin text_mouse">
+				Сегодня на кураторстве двух неравнодушных женщин около 100 котиков и одна парализованная собака. Светлана и ее помощница никогда не могли пройти мимо беды братьев наших меньших.
+			</p>
+		</div>
+		<div class="mouse__item mouse__img mouse__img_1"></div>
+		<div class="mouse__item mouse__text mouse__text_2">
+			<h2 class="heading">
+				ИСТОРИЯ КАЖДОГО СПАСЕННОГО ХВОСТИКА
+			</h2>
+			<p class="text text_margin text_mouse">
+				Это, как правило, история о том, как они преодолевали боль и страх, как заново учились доверять людям. Каких-то котиков горе-хозяева подбрасывают к дверям квартиры, многие были спасены с улицы. Многие из подопечных приюта смогли адаптироваться и восстановиться, а также найти новые семьи. Именно благодаря Светлане, животные обретали счастье в объятиях своего Человека, который их уже никогда не предаст.
+			</p>
+		</div>
+		<div class="mouse__item mouse__img mouse__img_2"></div>
+	</section>
+	<section class="footer center">
+		 Copyright &copy; 2023<br>
+		 Все права защищены<hr>
+		 <div class="social-networks">
+			<h5>ЛАПКИ в социальных сетях:</h5>
+			<a href="#"><img class="settings__img" src="img/ig.svg" alt="programm"></a>
+			<a href="#"><img class="settings__img" src="img/pr.svg" alt="programm"></a>
+			<a href="#"><img class="settings__img" src="img/fb.svg" alt="programm"></a>
+			<a href="#"><img class="settings__img" src="img/tg.svg" alt="programm"></a>
+			<a href="#"><img class="settings__img" src="img/tw.svg" alt="programm"></a>
+			<a href="#"><img class="settings__img" src="img/yt.svg" alt="programm"></a>
+		</div>
+		<hr>
+		<div class="column1">
+			<h5>КОМПАНИЯ</h5></a>
+			<a href="#"><p>Новости</p></a>
+			<a href="#"><p>Работа у нас<p></a>
+			<a href="#"><p>Контакты<p></a>
+        </div>
+		<div class="column2">
+			<h5>Информация</h5>
+			<a href="#"><p>Политика конфедициальности</p><a>
+		</div>
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
